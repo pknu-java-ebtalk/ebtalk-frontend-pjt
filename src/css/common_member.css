@@ -1,0 +1,83 @@
+/* 많이 사용하는 색 지정 */
+:root{
+  --common_blue: #182663;   /* 남색 */
+  --back_gray: #EBEBEB;     /* 배경 회색 */
+  --aside_gray: #f8f8f8;     /* 프로필 회색 */
+}
+
+/* 이비톡 로고 글씨체 */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+/* --- background start --- */
+body{
+  background-color: var(--common_blue);
+}
+
+/* 제일 바깥 배경(남색) */
+.background-box1{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--common_blue);
+}
+
+/* 두번째 배경(회색) */
+.background-box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1260px;
+  height: 670px;
+
+  background-color: var(--back_gray);
+  border-radius: 10px;
+}
+
+/* 마지막 배경(흰색) */
+.background-box3{
+  width: 1125px;
+  height: 585px;
+  background-color: white;
+}
+/* --- background end --- */
+
+/* --- logo start --- */
+/* logo 전체 */
+.logo{
+  display: flex;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+/* logo 사진 */
+.logo-pic{
+  width: 50px;
+  margin-right: 7px;
+}
+
+/* logo 타이틀 */
+.logo-text{
+  font-family: 'yg-jalnan';
+  font-size: 30px;
+}
+/* --- end --- */
