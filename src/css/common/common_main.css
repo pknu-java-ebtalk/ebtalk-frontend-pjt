@@ -92,7 +92,7 @@ body{
     display: flex;
     margin-top: 25px;
     margin-left: 25px;
-    max-width: 100%; /* 추가된 부분 */
+    max-width: 100%;
 }
   
 /* logo 사진 */
