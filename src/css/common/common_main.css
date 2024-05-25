@@ -43,13 +43,8 @@ html, body{
 /* --- background start --- */
 body{
     background-color: var(--common_blue);
-<<<<<<< HEAD
     min-width: 1550px;
     min-height: 850px;
-=======
-    width: 1550px;
-    height: 850px;
->>>>>>> userSignIn
 }
 
 /* 제일 바깥 배경(남색) */
