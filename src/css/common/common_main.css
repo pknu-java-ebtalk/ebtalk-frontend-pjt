@@ -70,8 +70,8 @@ body{
     height: 670px; */
 
     /* 1920px 기준 */
-    width: 1750px;
-    height: 890px;
+    width: 1550px;
+    height: 850px;
   
     background-color: var(--back_gray);
     border-radius: 10px;
@@ -87,7 +87,7 @@ body{
     height: 585px; */
 
     /* 1920px 기준 */
-    width: 1550px;
+    width: 1400px;
     height: 770px;
 
     background-color: white;
@@ -105,7 +105,7 @@ body{
     /* width: 225px; */
 
     /* 1920px 기준 */
-    width: 300px;
+    width: 350px;
     height: 100%;
 
     background-color: var(--aside_gray);
@@ -118,7 +118,7 @@ body{
 .logo{
     display: flex;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 60px;
     max-width: 100%;
 }
   
@@ -194,7 +194,7 @@ body{
     align-items: center;
 
     width: 100%;
-    height: 80px;
+    height: 90px;
 
     border-bottom: 1px solid var(--line_gray);
 }
