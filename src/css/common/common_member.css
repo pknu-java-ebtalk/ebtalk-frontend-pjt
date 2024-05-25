@@ -66,8 +66,8 @@ body{
   height: 670px; */
 
   /* 1920px 기준 */
-  width: 1750px;
-  height: 890px;
+  width: 1550px;
+  height: 850px;
 
   background-color: var(--back_gray);
   border-radius: 10px;
@@ -80,10 +80,13 @@ body{
   height: 585px; */
 
   /* 1920px 기준 */
-  width: 1550px;
+  width: 1400px;
   height: 770px;
 
   background-color: white;
+
+  font-family: 'S-CoreDream-3Light';
+  font-weight: 900;
 }
 /* --- background end --- */
 
@@ -92,7 +95,7 @@ body{
 .logo{
   display: flex;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 60px;
   max-width: 100%;
 }
 
