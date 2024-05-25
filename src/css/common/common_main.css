@@ -43,8 +43,8 @@ html, body{
 /* --- background start --- */
 body{
     background-color: var(--common_blue);
-    min-width: 1750px;
-    min-height: 890px;
+    width: 1550px;
+    height: 850px;
 }
 
 /* 제일 바깥 배경(남색) */

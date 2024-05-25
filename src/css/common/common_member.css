@@ -4,6 +4,8 @@
   --common_blue: #182663;   /* 남색 */
   --back_gray: #EBEBEB;     /* 배경 회색 */
   --aside_gray: #f8f8f8;     /* 프로필 회색 */
+  --text_purple: #7A86B1;    /* 글자 회보라색 */
+  --line_gray: #DADADA;      /* 테두리 회색 */
 }
 
 /* 이비톡 로고 글씨체 */
@@ -41,6 +43,8 @@ html, body{
 /* --- background start --- */
 body{
   background-color: var(--common_blue);
+  width: 1550px;
+  height: 850px;
 }
 
 /* 제일 바깥 배경(남색) */
