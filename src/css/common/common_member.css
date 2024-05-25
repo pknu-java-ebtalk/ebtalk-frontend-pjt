@@ -4,6 +4,8 @@
   --common_blue: #182663;   /* 남색 */
   --back_gray: #EBEBEB;     /* 배경 회색 */
   --aside_gray: #f8f8f8;     /* 프로필 회색 */
+  --text_purple: #7A86B1;    /* 글자 회보라색 */
+  --line_gray: #DADADA;      /* 테두리 회색 */
 }
 
 /* 이비톡 로고 글씨체 */
@@ -41,6 +43,8 @@ html, body{
 /* --- background start --- */
 body{
   background-color: var(--common_blue);
+    min-width: 1550px;
+    min-height: 850px;
 }
 
 /* 제일 바깥 배경(남색) */
@@ -66,8 +70,8 @@ body{
   height: 670px; */
 
   /* 1920px 기준 */
-  width: 1750px;
-  height: 890px;
+  width: 1550px;
+  height: 850px;
 
   background-color: var(--back_gray);
   border-radius: 10px;
@@ -80,10 +84,13 @@ body{
   height: 585px; */
 
   /* 1920px 기준 */
-  width: 1550px;
+  width: 1400px;
   height: 770px;
 
   background-color: white;
+
+  font-family: 'S-CoreDream-3Light';
+  font-weight: 900;
 }
 /* --- background end --- */
 
@@ -92,7 +99,7 @@ body{
 .logo{
   display: flex;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 60px;
   max-width: 100%;
 }
 
