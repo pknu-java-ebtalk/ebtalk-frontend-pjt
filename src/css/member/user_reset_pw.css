@@ -39,6 +39,7 @@
 .reset-pw-btn{
     border: none;
   
+    font-family: 'S-CoreDream-3Light';
     font-size: 20px;
     color: white;
     background-color: var(--common_blue);

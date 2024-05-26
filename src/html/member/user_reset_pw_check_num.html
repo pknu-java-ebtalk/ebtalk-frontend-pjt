@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>비밀번호 재설정 : 이비톡</title>
     <link rel="stylesheet" href="../../css/common/common_member.css">
-    <link rel="stylesheet" href="../../css/member/user_reset_pw.css">
+    <link rel="stylesheet" href="../../css/member/user_reset_pw_check_num.css">
 </head>
 <body>
     <header></header>
@@ -16,10 +16,15 @@
                     <div class="reset-pw-box">
                         <p class="reset-pw-title">비밀번호 재설정</p>
                         <form class="reset-pw-form" method="post" action="#" id="resetPwForm">
-                            <input class="reset-pw-id reset-pw-input reset-pw" type="email" name="ID" placeholder="아이디">
-                            <input class="reset-pw-name reset-pw-input reset-pw" type="text" name="NAME" placeholder="이름">
-                            <input class="reset-pw-phone reset-pw-input reset-pw" type="tel" name="PHONE" placeholder="전화번호">
-                            <input class="reset-pw-btn reset-pw" type="submit" value="확인">
+                            <input class="input" type="text" name="CHECKNUM" placeholder="인증번호">
+                            <div class="info-msg-box">
+                                <p class="num-check info-msg">인증번호가 틀렸습니다.</p>
+                                <p class="remain-time info-msg">03:00</p>
+                            </div>
+                            <div class="btn-box">
+                                <button class="check-num-resend-btn btn" type="button">인증번호 재발송</button>
+                                <button class="check-btn btn" type="submit">확인</button>
+                            </div>
                         </form>
                     </div>
                 </div>

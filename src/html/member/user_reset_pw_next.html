@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>비밀번호 재설정 : 이비톡</title>
     <link rel="stylesheet" href="../../css/common/common_member.css">
-    <link rel="stylesheet" href="../../css/member/user_reset_pw_not_found.css">
+    <link rel="stylesheet" href="../../css/member/user_reset_pw_next.css">
 </head>
 <body>
     <header></header>
@@ -15,11 +15,12 @@
                 <div class="contents-box">
                     <div class="reset-pw-box">
                         <p class="reset-pw-title">비밀번호 재설정</p>
-                        <div class="not-found">조회 결과가 없습니다.</div>
-                        <div class="btn-box">
-                            <button class="reset-pw-btn btn" type="button" onclick="location.href='../member/user_reset_pw.html'">비밀번호 재설정</button>
-                            <button class="sign-in-btn btn" type="button" onclick="location.href='../member/user_sign_in.html'">로그인</button>
-                        </div>
+                        <form class="reset-pw-form" method="post" action="#" id="resetPwForm">
+                            <input class="reset-pw-new-pw reset-pw-input reset-pw" type="password" name="NEWPW" placeholder="새 비밀번호">
+                            <input class="reset-pw-new-pw-check reset-pw-input reset-pw" type="password" name="NEWPWCHECK" placeholder="새 비밀번호 확인">
+                            <p class="info-msg">비밀번호가 일치하지 않습니다.</p>
+                            <input class="reset-pw-btn reset-pw" type="submit" value="확인">
+                        </form>
                     </div>
                 </div>
             </div>
