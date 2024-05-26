@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>스터디 모집</title>
-  <link href="../../css/study/study_register.css">
+  <link rel="stylesheet" href="../../css/study/study_register.css" >
 </head>
 <body>
-  <div class="study-box">
+  <div class="study-regist-box">
     <div class="study-text">
       <p class="study-text-p">스터디 모집</p>
     </div>
@@ -15,24 +15,24 @@
       <table>
         <tr>
           <td><span class="title">제목: </span></td>
-          <td><input type="text" name="title" placeholder="제목을 입력하세요."></td>
+          <td><input class="study-regist-title study-regist-input" type="text" name="title" placeholder="제목을 입력하세요."></td>
         </tr>
         <tr>
           <td><span class="date">기간: </span></td>
-          <td><input type="date" name="started_at" /> ~ <input type="date" name="finished_at" /></td>
+          <td><input class="study-regist-start study-regist-input" type="date" name="started_at" /> ~ <input class="study-regist-end study-regist-input" type="date" name="finished_at" /></td>
         </tr>
         <tr>
           <td><span class="count">정원: </span></td>
-          <td><input type="number" name="count" /></td>
+          <td><input class="study-regist-count study-regist-input" type="number" name="count" />명</td>
         </tr>
         <tr>
-          <td><span class="content">내용: </span></td>
-          <td><textarea placeholder="내용을 입력하세요." name="content"></textarea></td>
+          <td class="content-td"><span class="content">내용: </span></td>
+          <td><textarea class="study-regist-content" placeholder="내용을 입력하세요." name="content" rows="15" cols="62"></textarea></td>
         </tr>
       </table>
-      <div>
-        <input type="submit" value="등록">
-        <input type="submit" value="취소">
+      <div class="study-btn-box">
+        <input class="study-regist-btn study-regist-input study-btn" type="submit" value="등록">
+        <input class="study-cancel-btn study-regist-input study-btn" type="submit" value="취소">
       </div>
     </form>
   </div>
