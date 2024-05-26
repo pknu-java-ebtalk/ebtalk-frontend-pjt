@@ -1,42 +1,42 @@
-/* --- 아이디 찾기 start --- */
-/* 아이디 찾기 전체 */
-.find-id-box{
+/* --- 비밀번호 재설정 start --- */
+/* 비밀번호 재설정 전체 */
+.reset-pw-box{
     width: 600px;
     height: 500px;
     margin: 0 auto;
     padding: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
   
-/* 아이디 찾기 타이틀 */
-.find-id-title{
+/* 비밀번호 재설성 타이틀 */
+.reset-pw-title{
     font-size: 35px;
     text-align: center;
     margin-bottom: 45px;
 }
-  
+
 /* 폼 전체 설정 */
-.find-id-form{
+.reset-pw-form{
     display: flex;
     flex-direction: column;
 }
-  
+
 /* 폼 내 input 태그 설정 */
-.find-id{
+.reset-pw{
     font-family: 'S-CoreDream-3Light';
     padding: 15px;
     margin: 20px;
   
     border-radius: 10px;
 }
-  
-/* 이름 / 전화번호 입력란 설정 */
-.find-id-input{
+
+/* 입력란 설정 */
+.reset-pw-input{
     font-size: 15px;
 }
   
 /* 확인 버튼 설정 */
-.find-id-btn{
+.reset-pw-btn{
     border: none;
   
     font-size: 20px;
@@ -45,7 +45,6 @@
   
     margin-bottom: 5px;
 }
-.find-id-btn:hover{
+.reset-pw-btn:hover{
     cursor: pointer;
 }
-  /* --- 로그인 end --- */

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이비톡 : 아이디 찾기</title>
     <link rel="stylesheet" href="../../css/common/common_member.css">
-    <link rel="stylesheet" href="../../css/member/user_find_id.css">
+    <link rel="stylesheet" href="../../css/member/user_reset_pw_not_found.css">
 </head>
 <body>
     <header></header>
@@ -13,13 +13,13 @@
         <div class="background-gray middle-gray">
             <div class="background-white middle-white">
                 <div class="contents-box">
-                    <div class="find-id-box">
-                        <p class="find-id-title">아이디 찾기</p>
-                        <form class="find-id-form" method="post" action="#" id="findIdForm">
-                            <input class="find-id-name find-id-input find-id" type="text" name="NAME" placeholder="이름">
-                            <input class="find-id-phone find-id-input find-id" type="text" name="PHONE" placeholder="전화번호">
-                            <input class="find-id-btn find-id" type="submit" value="확인">
-                        </form>
+                    <div class="reset-pw-box">
+                        <p class="reset-pw-title">비밀번호 재설정</p>
+                        <div class="not-found">조회 결과가 없습니다.</div>
+                        <div class="btn-box">
+                            <button class="reset-pw-btn btn" type="button" onclick="location.href='../member/user_reset_pw.html'">비밀번호 재설정</button>
+                            <button class="sign-in-btn btn" type="button" onclick="location.href='../member/user_sign_in.html'">로그인</button>
+                        </div>
                     </div>
                 </div>
             </div>
