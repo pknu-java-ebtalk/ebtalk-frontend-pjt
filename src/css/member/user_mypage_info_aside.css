@@ -1,26 +1,3 @@
-#aside-contents-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.mypage-menu{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
-}
-
-.aside-icon{
-    width: 25px;
-    height: 25px;
-}
-
-.aside-text{
-    margin: 5px;
-    padding: 5px;
-}
-
 .mypage-info-text{
     border-bottom: 2px solid var(--line_gray);
 }
