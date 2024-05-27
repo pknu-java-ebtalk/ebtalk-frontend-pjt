@@ -3,12 +3,19 @@ input {
   font-family: 'S-CoreDream-3Light';
 }
 
+.contents-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* 스터디 상세페이지 너비, 길이 설정 */
 .study-regist-detail-box{
   width: 600px;
   height: 600px;
   margin: 0 auto;
   margin-top: 25px;
+  
 }
 
 /* 스터디 모집 크기 설정 */
@@ -19,7 +26,23 @@ input {
 
 /* 제목, 기간, 정원, 내용 제목과 내용 수평 margin 설정 */
 .span-first{
-  margin-right: 5px;
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #a0a0a5;
+ 
+}
+
+.content-value{
+  padding: 20px;
+  border: 1px solid var(--aside_gray);
+  /* border-radius: 10px; */
+  background: var(--aside_gray);
+}
+
+.value{
+  display: inline-block;
+  font-weight: 550;
+  
 }
 
 /* 제목, 기간, 정원, 내용 아래 margin 설정 */
@@ -28,31 +51,37 @@ input {
 }
 
 /* content-box 스크롤 설정 */
-.content-value{
-  /* width: 100%; */
-  height: 250px;
+.study-regist-detail-box{
   overflow-y: scroll;
 }
 
-.content-value::-webkit-scrollbar{
-  display: none;
+.study-regist-detail-box::-webkit-scrollbar{
+  display: block;
 }
 
-.content-value::-webkit-scrollbar-thumb {
+.study-regist-detail-box::-webkit-scrollbar-thumb {
   background: #ebebeb; /* 스크롤바 막대 색상 */
-  border: 2px solid #ebebeb; /* 스크롤바 막대 테두리 설정  */
-  border-radius: 12px 12px 12px 12px;
+    border: none; /* 스크롤바 막대 테두리 설정  */
+    border-radius: 12px 12px 12px 12px;
 }
+
+::-webkit-scrollbar-thumb:hover {
+	background-color:#a0a0a5;
+  border: none;
+}
+
+
 
 /* 내용: 글 flex 적용 */
 .content-box {
   width: 100%;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
 }
 
 .content{
   width: 8%;
+  margin-bottom: 10px;
 }
 
 .content-value{
@@ -61,12 +90,13 @@ input {
 
 /* 버튼 설정 START */
 div.study-btn-box {
-  margin-top: 50px;
+  margin-top: 30px;
   /* width: 500px; */
   text-align: center;
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+  padding-right: 20px;
 }
 
 .study-btn {
