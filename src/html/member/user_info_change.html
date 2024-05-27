@@ -23,8 +23,11 @@
                                 <div class="info-detail-text profile-pic-text">프로필 사진</div>
                                 <div class="profile-pic-input-box">
                                     <img class="info-detail-input profile-pic-input" src="../../img/profile.png"></img>
-                                    <button ty></button>
                                 </div>
+                                <form class="info-detail-input-change profile-pic-input-change" enctype="multipart/form-data">
+                                    <div class="add-image" id="image-show"></div>
+                                    <input type="file" accept="image/*" onchange="">
+                                </form>
                             </div>
                             <div class="info-detail profile-id">
                                 <div class="info-detail-text id-text">아이디</div>
@@ -32,7 +35,10 @@
                             </div>
                             <div class="info-detail profile-pw">
                                 <div class="info-detail-text pw-text">비밀번호</div>
-                                <div class="info-detail-input pw-input">****</div>
+                                <form class="info-pw-input-change-box">
+                                    <input type="password" name="PW" placeholder="새 비밀번호">
+                                    <input type="password" name="PW" placeholder="새 비밀번호 확인">
+                                </form>
                             </div>                            
                             <div class="info-detail profile-name">
                                 <div class="info-detail-text name-text font">이름</div>

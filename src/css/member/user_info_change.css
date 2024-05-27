@@ -7,12 +7,16 @@
 .info-box{
     width: 900px;
     height: 600px;
-    /* overflow-x: none;
-    overflow-y: scroll; */
+    overflow-x: none;
+    overflow-y: scroll;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.info-box::-webkit-scrollbar{
+    display: none;
 }
 
 .info-title{
@@ -58,6 +62,7 @@
 
 .info-profile-pic-input{
     width: 150px;
+    border-radius: 150px;
 }
 
 .profile-pic-input{
