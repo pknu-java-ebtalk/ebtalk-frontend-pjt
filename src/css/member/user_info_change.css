@@ -7,8 +7,6 @@
 .info-box{
     width: 900px;
     height: 600px;
-    /* overflow-x: none;
-    overflow-y: scroll; */
 
     display: flex;
     flex-direction: column;
