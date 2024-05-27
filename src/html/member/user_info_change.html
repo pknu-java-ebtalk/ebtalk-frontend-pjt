@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>마이페이지 : 이비톡</title>
     <link rel="stylesheet" href="../../css/common/common_main.css">
-    <link rel="stylesheet" href="../../css/member/user_info_view.css">
+    <link rel="stylesheet" href="../../css/member/user_info_change.css">
     <link rel="stylesheet" href="../../css/member/user_mypage_aside.css">
     <link rel="stylesheet" href="../../css/member/user_mypage_info_aside.css">
 </head>
@@ -21,7 +21,13 @@
                         <div class="info-detail-box">
                             <div class="info-detail info-profile-pic">
                                 <div class="info-detail-text profile-pic-text">프로필 사진</div>
-                                <div class="profile-pic-input-box"><img class="info-detail-input profile-pic-input" src="../../img/profile.png"></img></div>
+                                <div class="profile-pic-input-box">
+                                    <img class="info-detail-input profile-pic-input" src="../../img/profile.png"></img>
+                                </div>
+                                <form class="info-detail-input-change profile-pic-input-change" enctype="multipart/form-data">
+                                    <div class="add-image" id="image-show"></div>
+                                    <input type="file" accept="image/*" onchange="">
+                                </form>
                             </div>
                             <div class="info-detail profile-id">
                                 <div class="info-detail-text id-text">아이디</div>
@@ -29,7 +35,10 @@
                             </div>
                             <div class="info-detail profile-pw">
                                 <div class="info-detail-text pw-text">비밀번호</div>
-                                <div class="info-detail-input pw-input">****</div>
+                                <form class="info-pw-input-change-box">
+                                    <input type="password" name="PW" placeholder="새 비밀번호">
+                                    <input type="password" name="PW" placeholder="새 비밀번호 확인">
+                                </form>
                             </div>                            
                             <div class="info-detail profile-name">
                                 <div class="info-detail-text name-text font">이름</div>
@@ -45,8 +54,7 @@
                             </div>
                         </div>
                         <div class="btn-box">
-                            <button class="change-info-btn btn font" type="button" onclick="location.href='./user_info_change.html'">회원정보 수정</button>
-                            <button class="del-account-btn btn font" type="button">회원탈퇴</button>
+                            <button class="change-info-fin-btn btn font" type="button">수정 완료</button>
                         </div>
                     </div>
                 </div>
