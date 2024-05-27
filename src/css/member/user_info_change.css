@@ -93,6 +93,11 @@
     border-bottom: 1.5px solid black;
 }
 
+.pw-text{
+    height: 96px;
+    line-height: 96px;
+}
+
 .new-pw-input{
     margin-bottom: 6px;
 }
@@ -100,12 +105,28 @@
 .pw-input-box{
     display: flex;
     flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.info-msg-box{
+    position: relative;
 }
 
 .info-msg{
     font-size: 10px;
+    
     margin-left: 3px;
+    position: absolute;
+}
+
+.info-msg-ok{
+    color: green;
+}
+
+.info-msg-no{
     color: red;
+    visibility: hidden;
 }
 
 .btn-box{

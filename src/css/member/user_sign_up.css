@@ -1,9 +1,16 @@
-.contents-box{
+.sign-up-form{
     overflow-x: none;
     overflow-y: scroll;
 }
-.contents-box::-webkit-scrollbar{
-    display: none;
+.sign-up-form::-webkit-scrollbar{
+    width: 20px;
+}
+.sign-up-form::-webkit-scrollbar-thumb{
+    border-radius: 18px;
+    background: var(--line_gray);
+}
+.sign-up-form::-webkit-scrollbar-track{
+    background: white;
 }
 
 /* --- 회원가입 start --- */
@@ -61,12 +68,27 @@
     margin-bottom: 0;
 }
 
+.info-msg-box{
+    position: relative;
+    margin-bottom: 23px;
+}
+
 .info-msg{
     font-size: 15px;
-    color: red;
     
     margin-left: 23px;
     margin-bottom: 18px;
+
+    position: absolute;
+}
+
+.info-msg-ok{
+    color: green;
+    visibility: hidden;
+}
+
+.info-msg-no{
+    color: red;
 }
 
 .edu-type-box{
