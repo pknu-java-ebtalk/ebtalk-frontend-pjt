@@ -7,16 +7,10 @@
 .info-box{
     width: 900px;
     height: 600px;
-    overflow-x: none;
-    overflow-y: scroll;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.info-box::-webkit-scrollbar{
-    display: none;
 }
 
 .info-title{
@@ -62,7 +56,21 @@
 
 .info-profile-pic-input{
     width: 150px;
+}
+
+.add-img{
     border-radius: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: var(--text_gray);
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.add-img-btn{
+    margin-left: 35px;
+    margin-bottom: 5px;
 }
 
 .profile-pic-input{
@@ -70,6 +78,34 @@
 
     padding: 0;
     padding-left: 30px;
+}
+
+.input-change{
+    width: 270px;
+    height: 40px;
+
+    border: none;
+    border-bottom: 1.5px solid var(--line_gray);
+}
+
+.input-change:focus{
+    outline: none;
+    border-bottom: 1.5px solid black;
+}
+
+.new-pw-input{
+    margin-bottom: 6px;
+}
+
+.pw-input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-msg{
+    font-size: 10px;
+    margin-left: 3px;
+    color: red;
 }
 
 .btn-box{
