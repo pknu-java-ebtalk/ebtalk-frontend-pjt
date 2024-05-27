@@ -1,0 +1,37 @@
+
+.backboard-color {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    text-align: right; /* 텍스트를 오른쪽으로 정렬합니다. */
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:beige ;
+    display: flex;
+    flex-direction: row;
+}
+
+dt{
+    float: left;
+}
+.number{
+    padding-left: 30px;
+    margin-left: 10px;
+}
+.subject{
+    margin-left: 230px;
+}
+.name{
+    margin-left: 230px;
+}
+.created{
+    margin-left: 120px;
+}
+.hitCount{
+    margin-left: 120px;
+}
+
