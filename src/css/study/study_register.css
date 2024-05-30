@@ -77,7 +77,11 @@ textarea:focus{
 }
 
 .study-regist-content::-webkit-scrollbar{
-  display: none;
+  width: 10px;
+}
+.study-regist-content::-webkit-scrollbar-thumb{
+  border-radius: 18px;
+  background: var(--line_gray);
 }
 
 /* 버튼 설정 START */
