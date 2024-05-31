@@ -65,6 +65,16 @@
 .edit-content:focus {
     outline: none;
 }
+.edit-content::-webkit-scrollbar{
+    width: 10px;
+}
+.edit-content::-webkit-scrollbar-thumb{
+    border-radius: 18px;
+    background-color: var(--line_gray)
+}
+.edit-content::-webkit-scrollbar-track{
+    background: white;
+}
 
 /* 버튼 섹션 */
 .bt_wrap {
