@@ -45,16 +45,22 @@
   max-height: 23px;
 }
 
+.board-box-li:hover{
+  font-weight: 900;
+}
+
 .board-box-li{
   display: flex;
   flex-direction: row;
   padding: 10px 0;
   border-top: 1px solid var(--line_gray);
+  font-weight: 550;
+  height: 23.1px;
 }
 
 /* 공지 - 게시글 첫줄과 마지막 줄 안 뜨게 하기 위함 */
-.first,
-.board-box-li:last-of-type{
+.first{
+  /* background-color: red; */
   border: none;
 }
 
@@ -115,6 +121,15 @@
 .main-box-row-sub{
   padding: 20px;
   margin: 0 auto;
+  
+}
+
+.title-box-content{
+  font-weight: 550;
+}
+
+.title-box-content > a:hover{
+  font-weight: 900;
 }
 
 .title-box-content{

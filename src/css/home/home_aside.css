@@ -7,7 +7,6 @@
 .lunch-aside{
     width: 100%;
     height: 250px;
-    /* background: var(--text_gray); */
 }
 
 .lunch-title{
@@ -43,17 +42,7 @@
     align-items: center;
     overflow: hidden;
     margin-top: 5px;
-    /* overflow-y: scroll; */
 }
-
-/* .lunch-list::-webkit-scrollbar{
-    width: 10px;
-  }
-
-.lunch-list::-webkit-scrollbar-thumb{
-    border-radius: 18px;
-    background: var(--line_gray);
-} */
 
 .lunch-list > p {
     padding: 5px;
